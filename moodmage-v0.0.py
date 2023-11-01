@@ -64,7 +64,7 @@ if prompt := st.chat_input("What is up?"):
                                           f"Do not include in your response the words openness, conscientiousness, extraversion, agreeableness "
                                           f"and neuroticism. Also do not include in your response how you were rated on personality traits and "
                                           f"emotions. Provide your responses based on these personality and emotion settings and do not provide "
-                                          f"responses which go out of context from these personality and emotion settings"}
+                                          f"responses which goes out of context from these personality and emotion settings"}
         )
         for m in st.session_state.messages:
             message_list.append({"role": m["role"], "content": m["content"]})
