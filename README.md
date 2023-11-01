@@ -1,4 +1,4 @@
-# Text-chatbot-development
+# Text-chatbot-demo
 
 In the Python script, replace the entire `st.secrets["OPENAI_API_KEY"]` with your own Open API key.
 
